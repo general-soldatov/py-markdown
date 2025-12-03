@@ -5,11 +5,11 @@ Library for parcing markdown and convert to html text or file.
 ## Установка библиотеки
 Установка библиотеки осуществляется без всяких зависимостей:
 ```bash
-pip install py-markdown
+pip install parce-markdown
 ```
 После успешной установки импортируем библиотеку в файл:
 ```python
-import markdown as md
+import py_markdown as md
 ```
 ## Работа с исходным текстом
 Теперь преобразуем текст c markdown-разметкой в html. Для этого создадим экземпляр класса `ReadMD`:
